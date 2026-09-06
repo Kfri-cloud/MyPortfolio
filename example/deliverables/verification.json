@@ -1,0 +1,24 @@
+{
+  "checks": "PASS",
+  "widths": [
+    360,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "themePersistence": true,
+  "formValidation": true,
+  "menuAndScroll": true,
+  "mockAPI": [
+    "403",
+    "empty",
+    "success",
+    "HTML escape"
+  ],
+  "liveAPI": {
+    "cards": 8,
+    "status": ""
+  },
+  "javascriptErrors": []
+}
