@@ -1,0 +1,4 @@
+[2026-09-16T01:33:29+00:00] agent=foreground task=task-20260916-013216-pi-cli-576f5881 Foreground task session started.
+[2026-09-16T01:34:00+00:00] 사전 조건 확인: node v24.19.0, npm 11.17.0, Pi 미설치.
+[2026-09-16T01:35:00+00:00] 공식 패키지 설치: npm install -g --ignore-scripts @earendil-works/pi-coding-agent.
+[2026-09-16T01:35:30+00:00] 검증 완료: pi 0.85.1, 도움말 정상 출력, Git Bash 경로 확인.
