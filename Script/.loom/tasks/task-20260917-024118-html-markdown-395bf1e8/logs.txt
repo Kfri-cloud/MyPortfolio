@@ -1,0 +1,4 @@
+[2026-09-17T02:41:25+00:00] agent=foreground task=task-20260917-024118-html-markdown-395bf1e8 Foreground task session started.
+[2026-09-17] WHATWG HTML Living Standard 및 URL Standard로 HTML 관련 13개 주제를 검토했다.
+[2026-09-17] docs/html-course-notes.md 작성 후 제목, 섹션 수, 코드 펜스, 결론 존재 여부를 검사했다.
+[2026-09-17] 검증값 Lines=494, Bytes=18692, Fences=36, Sections=13, HasTitle=True, HasConclusion=True.

@@ -1,0 +1,16 @@
+{
+  "before": {
+    "available": true,
+    "branch_name": "develop",
+    "commit_sha": "3ab8aa35c33008c303caeea389a652287ef228f5",
+    "dirty": true,
+    "staged_files": [],
+    "modified_files": [],
+    "untracked_files": [
+      "Plan/",
+      "Script/"
+    ],
+    "captured_at": "2026-09-17T02:41:25+00:00"
+  },
+  "after": null
+}
