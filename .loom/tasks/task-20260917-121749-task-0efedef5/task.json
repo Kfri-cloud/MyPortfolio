@@ -3,9 +3,9 @@
   "job_id": "job-20260917-121748-job-a8d1628e",
   "title": "최소 포트폴리오 페이지 구현 및 검증",
   "description": "스캔 PDF의 필수 요구사항만 반영하여 현재 index.html에 포트폴리오 구조와 순수 CSS/JavaScript 기능을 구현한다.",
-  "status": "RUNNING",
+  "status": "DONE",
   "created_at": "2026-09-17T12:17:49+00:00",
-  "updated_at": "2026-09-17T12:17:55+00:00",
+  "updated_at": "2026-09-17T12:22:51+00:00",
   "order_index": 1,
   "assigned_agent": "foreground",
   "depends_on": [],
@@ -21,12 +21,24 @@
   "run_attempts": 0,
   "last_error": "",
   "commit_refs": [
-    "9976deab8e2b8fc3249739d7b4c4e6716eab7957"
+    "9976deab8e2b8fc3249739d7b4c4e6716eab7957",
+    "833f94fb298e8319ec55ec629948025a26a43a52"
   ],
   "branch_name": "develop",
   "git_dirty": true,
-  "git_snapshot_captured_at": "2026-09-17T12:17:55+00:00",
-  "artifacts": [],
+  "git_snapshot_captured_at": "2026-09-17T12:22:51+00:00",
+  "artifacts": [
+    ".loom\\tasks\\task-20260917-121749-task-0efedef5\\agent-events.jsonl",
+    ".loom\\tasks\\task-20260917-121749-task-0efedef5\\artifacts.json",
+    ".loom\\tasks\\task-20260917-121749-task-0efedef5\\context.md",
+    ".loom\\tasks\\task-20260917-121749-task-0efedef5\\decision.md",
+    ".loom\\tasks\\task-20260917-121749-task-0efedef5\\git-snapshot.json",
+    ".loom\\tasks\\task-20260917-121749-task-0efedef5\\logs.txt",
+    ".loom\\tasks\\task-20260917-121749-task-0efedef5\\previous-results.md",
+    ".loom\\tasks\\task-20260917-121749-task-0efedef5\\prompt.md",
+    ".loom\\tasks\\task-20260917-121749-task-0efedef5\\result.md",
+    ".loom\\tasks\\task-20260917-121749-task-0efedef5\\troubleshooting.md"
+  ],
   "source_proposal_id": "",
   "source_prompt": ""
 }

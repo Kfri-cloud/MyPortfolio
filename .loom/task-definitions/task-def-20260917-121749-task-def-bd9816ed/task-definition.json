@@ -4,7 +4,7 @@
   "title": "최소 포트폴리오 페이지 구현 및 검증",
   "description": "스캔 PDF의 필수 요구사항만 반영하여 현재 index.html에 포트폴리오 구조와 순수 CSS/JavaScript 기능을 구현한다.",
   "created_at": "2026-09-17T12:17:49+00:00",
-  "updated_at": "2026-09-17T12:17:55+00:00",
+  "updated_at": "2026-09-17T12:22:50+00:00",
   "order_index": 1,
   "legacy_task_id": "task-20260917-121749-task-0efedef5",
   "depends_on": [],

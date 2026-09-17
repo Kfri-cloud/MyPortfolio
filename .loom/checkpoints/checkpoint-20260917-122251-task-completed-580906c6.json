@@ -1,0 +1,25 @@
+{
+  "id": "checkpoint-20260917-122251-task-completed-580906c6",
+  "created_at": "2026-09-17T12:22:51+00:00",
+  "reason": "Task completed: 최소 포트폴리오 페이지 구현 및 검증",
+  "summary": "최소 포트폴리오 페이지 구현 및 검증 -> DONE @ develop/833f94fb298e",
+  "job_id": "job-20260917-121748-job-a8d1628e",
+  "task_id": "task-20260917-121749-task-0efedef5",
+  "commit_sha": "833f94fb298e8319ec55ec629948025a26a43a52",
+  "branch_name": "develop",
+  "dirty": true,
+  "staged_files": [],
+  "modified_files": [
+    ".loom/job-runs/job-run-20260917-121755-job-20260917-121748-job-a8d1628e-14b3d04d/job-run.json",
+    ".loom/task-definitions/task-def-20260917-121749-task-def-bd9816ed/task-definition.json"
+  ],
+  "untracked_files": [
+    ".loom/memory/docs-index.json",
+    "Plan/",
+    "Script/debug.log",
+    "\"Script/docs/CSS\\352\\263\\265\\353\\266\\200\\354\\236\\220\\353\\243\\214.md\"",
+    "\"Script/docs/HTML_Jsva\\352\\263\\265\\353\\266\\200\\354\\236\\220\\353\\243\\214.md\""
+  ],
+  "snapshot_captured_at": "2026-09-17T12:22:51+00:00",
+  "rollback_strategy": "revert-or-branch"
+}
