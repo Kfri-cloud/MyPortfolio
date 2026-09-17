@@ -1,0 +1,30 @@
+{
+  "before": {
+    "available": true,
+    "branch_name": "develop",
+    "commit_sha": "9976deab8e2b8fc3249739d7b4c4e6716eab7957",
+    "dirty": true,
+    "staged_files": [],
+    "modified_files": [
+      ".loom/events.jsonl"
+    ],
+    "untracked_files": [
+      ".loom/job-runs/job-run-20260917-121755-job-20260917-121748-job-a8d1628e-14b3d04d/",
+      ".loom/jobs/job-20260917-121748-job-a8d1628e/",
+      ".loom/memory/docs-index.json",
+      ".loom/task-definitions/task-def-20260917-121749-task-def-bd9816ed/",
+      ".loom/task-runs/task-run-20260917-121755-task-def-20260917-121749-task-def-bd9816ed-deb554b3/",
+      ".loom/tasks/task-20260917-121749-task-0efedef5/",
+      "Plan/",
+      "Script/debug.log",
+      "\"Script/docs/CSS\\352\\263\\265\\353\\266\\200\\354\\236\\220\\353\\243\\214.md\"",
+      "\"Script/docs/HTML_Jsva\\352\\263\\265\\353\\266\\200\\354\\236\\220\\353\\243\\214.md\"",
+      "\"Script/main Script_test/\"",
+      "eng.traineddata",
+      "kor.traineddata",
+      "node_modules/"
+    ],
+    "captured_at": "2026-09-17T12:17:55+00:00"
+  },
+  "after": null
+}
