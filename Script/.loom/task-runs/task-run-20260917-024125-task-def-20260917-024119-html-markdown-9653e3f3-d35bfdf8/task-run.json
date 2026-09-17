@@ -2,9 +2,9 @@
   "id": "task-run-20260917-024125-task-def-20260917-024119-html-markdown-9653e3f3-d35bfdf8",
   "job_run_id": "job-run-20260917-024125-job-20260917-024109-html-4b0dd70d-fbc58683",
   "task_definition_id": "task-def-20260917-024119-html-markdown-9653e3f3",
-  "status": "RUNNING",
+  "status": "DONE",
   "created_at": "2026-09-17T02:41:25+00:00",
-  "updated_at": "2026-09-17T02:41:25+00:00",
+  "updated_at": "2026-09-17T02:48:49+00:00",
   "legacy_task_id": "task-20260917-024118-html-markdown-395bf1e8",
   "attempt": 1,
   "assigned_agent": "foreground",
@@ -13,13 +13,30 @@
   "lease_expires_at": "",
   "queued_at": "",
   "started_at": "2026-09-17T02:41:25+00:00",
-  "completed_at": "",
+  "completed_at": "2026-09-17T02:48:49+00:00",
   "last_error": "",
-  "commit_refs": [],
-  "branch_name": "",
-  "git_dirty": false,
-  "git_snapshot_captured_at": "",
-  "artifacts": [],
-  "checkpoint_ids": [],
+  "commit_refs": [
+    "3ab8aa35c33008c303caeea389a652287ef228f5",
+    "4283db7811fa59d8e3dfcbfcdc928c5cf37fdeb5"
+  ],
+  "branch_name": "develop",
+  "git_dirty": true,
+  "git_snapshot_captured_at": "2026-09-17T02:48:49+00:00",
+  "artifacts": [
+    ".loom\\tasks\\task-20260917-024118-html-markdown-395bf1e8\\agent-events.jsonl",
+    ".loom\\tasks\\task-20260917-024118-html-markdown-395bf1e8\\artifacts.json",
+    ".loom\\tasks\\task-20260917-024118-html-markdown-395bf1e8\\context.md",
+    ".loom\\tasks\\task-20260917-024118-html-markdown-395bf1e8\\decision.md",
+    ".loom\\tasks\\task-20260917-024118-html-markdown-395bf1e8\\git-snapshot.json",
+    ".loom\\tasks\\task-20260917-024118-html-markdown-395bf1e8\\logs.txt",
+    ".loom\\tasks\\task-20260917-024118-html-markdown-395bf1e8\\previous-results.md",
+    ".loom\\tasks\\task-20260917-024118-html-markdown-395bf1e8\\prompt.md",
+    ".loom\\tasks\\task-20260917-024118-html-markdown-395bf1e8\\result.md",
+    ".loom\\tasks\\task-20260917-024118-html-markdown-395bf1e8\\troubleshooting.md",
+    "docs\\html-course-notes.md"
+  ],
+  "checkpoint_ids": [
+    "checkpoint-20260917-024849-task-completed-html-markdown-73693d75"
+  ],
   "review_required_reason": ""
 }

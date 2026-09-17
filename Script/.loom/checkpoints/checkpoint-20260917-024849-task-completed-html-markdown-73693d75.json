@@ -1,0 +1,23 @@
+{
+  "id": "checkpoint-20260917-024849-task-completed-html-markdown-73693d75",
+  "created_at": "2026-09-17T02:48:49+00:00",
+  "reason": "Task completed: HTML 강의 요약 검증 및 Markdown 작성",
+  "summary": "HTML 강의 요약 검증 및 Markdown 작성 -> DONE @ develop/4283db7811fa",
+  "job_id": "job-20260917-024109-html-4b0dd70d",
+  "task_id": "task-20260917-024118-html-markdown-395bf1e8",
+  "commit_sha": "4283db7811fa59d8e3dfcbfcdc928c5cf37fdeb5",
+  "branch_name": "develop",
+  "dirty": true,
+  "staged_files": [],
+  "modified_files": [
+    "Script/.loom/job-runs/job-run-20260917-024125-job-20260917-024109-html-4b0dd70d-fbc58683/job-run.json",
+    "Script/.loom/task-definitions/task-def-20260917-024119-html-markdown-9653e3f3/task-definition.json"
+  ],
+  "untracked_files": [
+    "Plan/",
+    "Script/debug.log",
+    "\"Script/main Script_test/\""
+  ],
+  "snapshot_captured_at": "2026-09-17T02:48:49+00:00",
+  "rollback_strategy": "revert-or-branch"
+}

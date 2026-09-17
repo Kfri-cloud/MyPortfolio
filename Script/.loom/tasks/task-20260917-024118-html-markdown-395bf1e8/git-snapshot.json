@@ -12,5 +12,21 @@
     ],
     "captured_at": "2026-09-17T02:41:25+00:00"
   },
-  "after": null
+  "after": {
+    "available": true,
+    "branch_name": "develop",
+    "commit_sha": "4283db7811fa59d8e3dfcbfcdc928c5cf37fdeb5",
+    "dirty": true,
+    "staged_files": [],
+    "modified_files": [
+      "Script/.loom/job-runs/job-run-20260917-024125-job-20260917-024109-html-4b0dd70d-fbc58683/job-run.json",
+      "Script/.loom/task-definitions/task-def-20260917-024119-html-markdown-9653e3f3/task-definition.json"
+    ],
+    "untracked_files": [
+      "Plan/",
+      "Script/debug.log",
+      "\"Script/main Script_test/\""
+    ],
+    "captured_at": "2026-09-17T02:48:49+00:00"
+  }
 }

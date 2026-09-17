@@ -2,13 +2,15 @@
   "id": "job-20260917-024109-html-4b0dd70d",
   "title": "HTML 강의 내용 검증 및 문서화",
   "goal": "생활코딩 HTML 강의 요약을 최신 표준에 맞게 검증하고 Markdown 문서로 제공한다",
-  "status": "RUNNING",
+  "status": "DONE",
   "created_at": "2026-09-17T02:41:09+00:00",
-  "updated_at": "2026-09-17T02:41:25+00:00",
+  "updated_at": "2026-09-17T02:48:49+00:00",
   "context_refs": [],
   "task_ids": [
     "task-20260917-024118-html-markdown-395bf1e8"
   ],
   "branch_name": "develop",
-  "checkpoint_ids": []
+  "checkpoint_ids": [
+    "checkpoint-20260917-024849-task-completed-html-markdown-73693d75"
+  ]
 }
