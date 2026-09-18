@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-17T12:13:17+00:00",
+  "docs_paths": [
+    "docs"
+  ],
+  "documents": [
+    {
+      "id": ".loom/memory/README.md",
+      "title": "Loom Memory",
+      "path": ".loom/memory/README.md",
+      "source": "memory",
+      "document_type": "memory",
+      "updated_at": "2026-09-16T10:26:35+09:00",
+      "size_bytes": 206
+    },
+    {
+      "id": ".loom/memory/categories.json",
+      "title": "{",
+      "path": ".loom/memory/categories.json",
+      "source": "memory",
+      "document_type": "memory",
+      "updated_at": "2026-09-16T10:26:35+09:00",
+      "size_bytes": 1537
+    },
+    {
+      "id": ".loom/memory/principles.md",
+      "title": "Principles",
+      "path": ".loom/memory/principles.md",
+      "source": "memory",
+      "document_type": "principles",
+      "updated_at": "2026-09-16T10:26:35+09:00",
+      "size_bytes": 85
+    }
+  ],
+  "path": "D:/github/MyPortfolio/.loom/memory/docs-index.json"
+}
