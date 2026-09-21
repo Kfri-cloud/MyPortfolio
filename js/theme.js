@@ -1,13 +1,11 @@
 const themeRoot = document.documentElement;
 const themeButton = document.querySelector('.theme-toggle-valid');
 const savedTheme = localStorage.getItem('portfolio-theme');
-
-if (savedTheme === 'dark') {
-  themeRoot.dataset.theme = 'dark';
-}
+const themeState = { mode: savedTheme === 'dark' ? 'dark' : 'light' };
 
 const updateThemeButton = () => {
-  const isDark = themeRoot.dataset.theme === 'dark';
+  const isDark = themeState.mode === 'dark';
+  themeRoot.dataset.theme = themeState.mode;
   themeButton.textContent = isDark ? '☀' : '☾';
   themeButton.setAttribute('aria-label', isDark ? '라이트모드로 전환' : '다크모드로 전환');
 };
@@ -15,8 +13,7 @@ const updateThemeButton = () => {
 updateThemeButton();
 
 themeButton.addEventListener('click', () => {
-  const isDark = themeRoot.dataset.theme === 'dark';
-  themeRoot.dataset.theme = isDark ? 'light' : 'dark';
-  localStorage.setItem('portfolio-theme', isDark ? 'light' : 'dark');
+  themeState.mode = themeState.mode === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('portfolio-theme', themeState.mode);
   updateThemeButton();
 });
