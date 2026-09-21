@@ -1,7 +1,7 @@
 const root = document.documentElement;
 const nav = document.querySelector('.nav');
 const menuToggle = document.querySelector('.menu-toggle');
-const themeToggle = document.querySelector('.theme-toggle');
+const themeToggle = document.querySelector('.theme-toggle-valid');
 const header = document.querySelector('.site-header');
 const topButton = document.querySelector('.top-button');
 const slideButtons= document.querySelectorAll(
@@ -32,10 +32,20 @@ document.querySelectorAll('.nav-list a').forEach((link) => {
   });
 });
 
+let lastScrollY = window.scrollY;
+
 window.addEventListener('scroll', () => {
   const isScrolled = window.scrollY > 60;
   header.classList.toggle('scrolled', isScrolled);
   topButton.classList.toggle('show', window.scrollY > 300);
+
+  if (window.scrollY <= 10 || window.scrollY < lastScrollY) {
+    header.classList.add('is-visible');
+  } else {
+    header.classList.remove('is-visible');
+  }
+
+  lastScrollY = window.scrollY;
 });
 
 topButton.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
@@ -125,4 +135,36 @@ form.addEventListener('submit', (event) => {
 
   document.querySelector('.form-success').textContent = '메시지가 확인되었습니다. 감사합니다!';
   form.reset();
+});
+
+//image-anim
+// image animation
+const images = document.querySelectorAll('.character-anim');
+
+images.forEach((image) => {
+  const folder = image.dataset.folder;
+
+  const frames = Array.from(
+    { length: 24 },
+    (_, index) => `../../images/${folder}/frame-${index + 1}.png`
+  );
+
+  let frame = 0;
+  let timer = null;
+
+  image.addEventListener('mouseenter', () => {
+    if (timer) return;
+
+    timer = setInterval(() => {
+      image.src = frames[frame];
+      frame = (frame + 1) % frames.length;
+    }, 80);
+  });
+
+  image.addEventListener('mouseleave', () => {
+    clearInterval(timer);
+    timer = null;
+    frame = 0;
+    image.src = frames[0];
+  });
 });
