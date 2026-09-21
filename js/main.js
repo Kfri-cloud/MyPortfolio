@@ -4,6 +4,10 @@ const menuToggle = document.querySelector('.menu-toggle');
 const themeToggle = document.querySelector('.theme-toggle');
 const header = document.querySelector('.site-header');
 const topButton = document.querySelector('.top-button');
+const slideButtons= document.querySelectorAll(
+  ".slide-buttons button"
+);
+
 
 const savedTheme = localStorage.getItem('portfolio-theme');
 if (savedTheme === 'dark') root.dataset.theme = 'dark';
@@ -36,6 +40,18 @@ window.addEventListener('scroll', () => {
 
 topButton.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
+
+slideButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const targetId = button.dataset.target;
+    const target = document.getElementById(targetId);
+
+    target?.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  });
+});
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) entry.target.classList.add('visible');

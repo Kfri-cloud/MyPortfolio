@@ -80,7 +80,33 @@ code { padding: .15rem .35rem; border-radius: 4px; background: var(--surface); c
 .footer-inner div { display: flex; gap: 1rem; }
 .top-button { position: fixed; right: 1rem; bottom: 1rem; display: none; width: 2.8rem; height: 2.8rem; border: 0; border-radius: 50%; background: var(--accent); color: #fff; font-size: 1.25rem; box-shadow: var(--shadow); }
 .top-button.show { display: block; }
-.reveal { opacity: 0; transform: translateY(20px); transition: opacity .6s, transform .6s; }
+.slide-buttons {
+  position: fixed;
+  left: 2%;
+  top:  48%;
+  transform: translateX(-50%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  z-index: 9999;
+}
+
+.slide-buttons button {
+  width: 3rem;
+  height: 0.4rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0.2rem;
+  background: #888;
+  cursor: pointer;
+}
+
+.slide-buttons button:hover {
+  background: var(--accent);
+}
+  .reveal { opacity: 0; transform: translateY(20px); transition: opacity .6s, transform .6s; }
 .reveal.visible { opacity: 1; transform: none; }
 @media (min-width: 768px) {
   .menu-toggle { display: none; }
